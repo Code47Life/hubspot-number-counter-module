@@ -1,0 +1,55 @@
+/* Author:Himanshu Jain
+Website: https://www.Code47.life
+Licence: GPL3 */
+
+.section-small {
+    margin-top: 40px;
+}
+.section-title {
+    margin: 20px 0 15px 15px;
+}
+.section-title span {
+    color: #4285f4;
+}
+.counter-main h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.counter-main {
+    padding: 25px;
+    text-align: center;
+}
+
+.counter {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.counter-icon {
+    margin: 0 auto;
+    float: none;
+    display: table;
+}
+
+.counter-icon img {
+    width: 55px;
+    height: 55px;
+}

@@ -1,0 +1,48 @@
+<!-- Author:Himanshu Jain
+Company: https://www.Code47.life
+Licence: GPL3 -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Number Counter </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="module.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <section class="section-small">
+    <div class="container">
+      <h2 class="section-title text-center ">YOU DESERVE A CLOUD PROVIDER, <span>YOU CAN DEPEND ON<sup></sup></span></h2>
+      <div class="row">
+        {% for item in module.counter %} <!-- counter Loop Start  -->
+        <div class="col-sm-3 col-xs-6">
+          <div class="counter">
+            <span class="counter-icon"><img src="{{ item.counter_icon.src }}" alt="{{ item.counter_icon.alt }}" {{ sizeAttrs }}></span> <!-- Counter Image  -->
+
+            <h2 class="timer count-title count-number" data-to="{{ item.counter_number }}" data-speed="1500"></h2> <!-- Counter TO-Number -->
+
+            <p class="text-center footer-title">{{ item.counter_text }}</p> <!-- Counter Text  -->
+          </div>
+        </div>
+        {% endfor %} <!-- counter Loop End  -->
+
+      </div>
+      <h3 class="footer-title text-center h3" style="color:#4285f4;">
+        Your Digital Transformation Partner Powered By Intelligent Cloud
+      </h3>
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+  </script>
+  <script src="module.js"></script>
+</body>
+
+</html>
